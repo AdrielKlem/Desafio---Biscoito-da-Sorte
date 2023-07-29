@@ -13,6 +13,7 @@
   --ff-base-special: "Dancing Script", cursive;
 
   /* Color */
+  --color-base-background: hsl(0, 0%, 100%);
   --color-base-purple-dark: hsl(254, 94%, 20%);
   --color-base-pink: hsl(284, 100%, 50%);
   --color-font: hsl(238, 27%, 28%);
@@ -31,5 +32,25 @@ body {
     var(--color-base-pink) 100%
   );
 
+  display: grid;
+  place-items: center;
   height: 100vh;
+}
+
+main {
+  background-color: var(--color-base-background);
+
+  padding: 4.8rem 6.4rem 6.4rem;
+  width: min(45rem, 90%);
+  margin-top: -12rem;
+  text-align: center;
+}
+
+main img {
+  width: 100%;
+}
+
+main .button {
+  width: 20rem;
+  margin: 2rem auto 0;
 }
