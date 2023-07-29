@@ -60,11 +60,13 @@ main img {
   width: 100%;
 }
 
+main .screen1 .biscoito-box {
+  cursor: pointer;
+}
+
 main .biscoito-box {
   width: 20rem;
   margin: 0 auto;
-
-  cursor: pointer;
 }
 
 /* Font */
@@ -99,6 +101,14 @@ main .screen2 p {
 
   padding: 1rem;
   margin: 2.4rem auto 3.2rem;
+
+  font-family: var(--ff-base-special);
+  color: var(--color-base-black);
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
 }
 
 main .screen2 .biscoito-box {
