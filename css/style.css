@@ -53,4 +53,28 @@ main img {
 main .button {
   width: 20rem;
   margin: 2rem auto 0;
+
+  cursor: pointer;
+}
+
+/* Font */
+main h1,
+main p {
+  color: var(--color-font);
+}
+
+main h1 {
+  font-family: var(--ff-base-title);
+  font-size: 2.4rem;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 700;
+}
+
+main p {
+  font-family: var(--ff-base-text);
+  font-size: 1.6rem;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
 }
