@@ -64,6 +64,11 @@ main .screen1 .biscoito-box {
   cursor: pointer;
 }
 
+main .screen1 .biscoito-box:hover {
+  animation: btn-tremura 1s;
+  animation-iteration-count: infinite;
+}
+
 main .biscoito-box {
   width: 20rem;
   margin: 0 auto;
@@ -109,6 +114,8 @@ main .screen2 p {
   font-weight: 400;
   font-style: normal;
   line-height: normal;
+
+  animation: downTop 1.5s forwards;
 }
 
 main .screen2 .biscoito-box {
